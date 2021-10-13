@@ -18,7 +18,7 @@ spec:
       containers:
       - name: gitops-foundations
         image: gbdsysadmin/gitops-foundations:1.0
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
         livenessProbe:
